@@ -1,0 +1,127 @@
+.btnPuhs {
+    /* border: 2px solid red; */
+    width: 100%;
+    text-align: center;
+    /* background: linear-gradient(to top, LightGray, white); */
+    
+    padding: 20px;
+  }
+
+  .a_id {
+      text-decoration: none;
+  }
+
+
+.button {
+  /* text-align: center; */
+  width: 200px;
+  padding: 10px;
+  font-size: 25px;
+  color: black;
+  font-weight: 800;
+  /* border: 5px solid #15f4ee; */
+  /* text-transform: uppercase; */
+  /* letter-spacing: 10px; */
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 1.5s;
+  /* margin-top: 10px; */
+  font-family: "Baloo 2", sans-serif;
+}
+
+.button:hover {
+  box-shadow: 0 5px 50px 0 skyblue inset, 0 5px 50px 0 #15f4ee , 
+              0 5px 50px 0 skyblue inset, 0 5px 50px 0 #15f4ee;
+  text-shadow: 0 5px 50px skyblue;
+  }
+
+
+
+.btn01 {
+  /* border: 1px solid black; */
+  width: 220px;
+  margin-top: 10px;
+  margin: auto;
+  display: inline-block;
+}
+
+
+
+.button01 {
+  /* display: inline-flexbox; */
+  text-align: center;
+  width: 200px;
+  padding: 10px;
+  font-size: 25px;
+  color: red;
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 800;
+  /* border: 5px solid lightcoral; */
+  /* text-transform: uppercase; */
+  /* letter-spacing: 10px; */
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 1.5s;
+  /* margin-top: 10px; */
+ 
+}
+
+.button01:hover {
+  box-shadow: 0 5px 50px 0 red inset, 0 5px 50px 0 lightcoral , 
+              0 5px 50px 0 red inset, 0 5px 50px 0 lightcoral;
+  text-shadow: 0 5px 50px red;
+  }
+
+
+  .button02 {
+    /* display: inline-flexbox; */
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    font-size: 25px;
+    color: green;
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 800;
+    /* border: 5px solid lightgreen; */
+    /* text-transform: uppercase; */
+    /* letter-spacing: 10px; */
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+    /* margin-top: 10px; */
+   
+  }
+  
+  .button02:hover {
+    box-shadow: 0 5px 50px 0 green inset, 0 5px 50px 0 lightgreen , 
+                0 5px 50px 0 green inset, 0 5px 50px 0 lightgreen;
+    text-shadow: 0 5px 50px green;
+    }
+
+
+
+    .button03 {
+      text-align: center;
+      width: 200px;
+      padding: 10px;
+      font-size: 25px;
+      color: blue;
+      font-family: "Baloo 2", sans-serif;
+      font-weight: 800;
+      /* border: 5px solid blue; */
+      /* text-transform: uppercase; */
+      /* letter-spacing: 10px; */
+      cursor: pointer;
+      border-radius: 100px;
+      transition: 1.5s;
+      /* margin-top: 10px; */
+    
+     
+    }
+    
+    .button03:hover {
+      box-shadow: 0 5px 50px 0 blue inset, 0 5px 50px 0 lightblue , 
+                  0 5px 50px 0 blue inset, 0 5px 50px 0 lightblue;
+      text-shadow: 0 5px 50px blue;
+      }
+

@@ -1,0 +1,96 @@
+
+/* טופס צור קשר דיב ראשי */
+.contectUs {
+  /* border-style: solid; */
+  /* border-color: blue; */
+  text-align: center;
+  direction: rtl;
+}
+
+
+/* טופס צור קשר דיב פנימי */
+.divform {
+  /* border: 2px solid red; */
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* טופס צור קשר  */
+input {
+  width: 60%;
+  height: 40px;
+  margin: 10px;
+  border-radius: 50px;
+
+}
+
+
+
+/* טופס צור קשר כפתור שליחה */
+#subMit {
+  width: 300px;
+  padding: 10px;
+  border-radius: 50px;
+  font-size: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* border: 1px solid red;  */
+  background: linear-gradient(to top, LightGray, white);
+  /* opacity: 80%; */
+  /* height: 100px; */
+  font-weight: 800;
+  
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  /* border: 1px solid red; */ 
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background: linear-gradient(to top, blue, white);
+
+}
+
+#li_right {
+  /* float: left; */
+  /* border: 1px solid red; */
+  
+}
+
+.fa-lock {
+  color: gold;
+
+}
+
+
+
+
+
+
+
