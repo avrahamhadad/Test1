@@ -1,0 +1,193 @@
+
+
+
+/* תמונות מסתובבות */
+.photoDiv {
+  /* border: 2px solid red; */
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  /* background-image: url(./locksmite/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
+
+@media only screen and (max-width: 1162px) {
+  /* For mobile phones: */
+  [class*="photoDiv"] {
+    width: 100%;
+    height: 950px;
+    /* background-image: url(./locksmite/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+  }
+}
+
+
+
+
+.divFlipBox1 {
+  /* border: 4px solid red; */
+  height: 190px;
+  width: 100%;
+
+}
+
+
+
+/* תמונות מסתובבות */
+.divboxOne1 {
+  /* border: 2px solid black; */
+  /* border-style: inset; */
+  border-radius: 50%;
+  width: 200px;
+  display: inline-block;
+  /* padding: 20px; */
+  margin: 20px;
+}
+
+
+
+.photoTwo {
+  width: 100%;
+  height: 150px;
+  border-radius: 50%;
+  /* border: 2px solid red; */
+}
+
+
+/* תמונות מסתובבות */
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 100%;
+  height: 150px;
+  /* border: 1px solid #f1f1f1; */
+  /* perspective: 1000px; Remove this if you don't want the 3D effect */
+}
+
+/* תמונות מסתובבות */
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* text-align: center; */
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+/* תמונות מסתובבות */
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+
+}
+
+/* תמונות מסתובבות */
+/* Position the front and back side */
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+
+}
+
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  color: black;
+  border-radius: 50%;
+  /* border: 2px solid #000000; */
+
+}
+
+
+/* Style the back side */
+.flip-box-back {
+  /* border: 2px solid red; */
+  background-color: white;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 50%;
+  width: 200px;
+  height: 150px;
+ 
+}
+
+
+
+.flip-box-back1 {
+  /* border: 2px solid black; */
+  width: 150px;
+  height: 100px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 25px
+  
+
+}
+
+.paraFlipBox {
+  text-align: center;
+  font-size: 15px;
+  font-style: bold;
+  /* border: 2px solid red; */
+  margin: 30px;
+}
+
+.tenor-gif-embed {
+  /* border: 1px solid red; */
+  margin-left: 25px;
+  text-align: center;
+  
+}
+
+/* תמונה פריצת רכב */
+#carBreaking {
+  background-image: url(./locksmite/bustacell-unreal-tournament.gif );
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* תמונה תיקון דלת */
+#doorlock {
+  background-image: url(./locksmite/vvm-coin-vvmc.gif );
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+/* תמונה פריצת דלת */
+#lock-picking {
+  background-image: url(./locksmite/housing.gif );
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+/* תמונה פריצת כספת */
+#safeBreaking {
+  background-image: url(./locksmite/enobahi̇s.gif );
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+} 
+
+
+#keyM {
+  background-image: url(./locksmite/key.gif );
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+} 
+
